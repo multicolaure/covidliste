@@ -245,8 +245,8 @@ ActiveRecord::Schema.define(version: 2021_05_01_080458) do
     t.string "city"
     t.string "geo_citycode"
     t.string "geo_context"
-    t.datetime "anonymized_at"
     t.boolean "statement", default: false
+    t.datetime "anonymized_at"
     t.datetime "statement_accepted_at"
     t.datetime "toc_accepted_at"
     t.string "email_domain"
